@@ -127,7 +127,7 @@ struct CardView: View {
         VStack {
             HStack {
                 VStack(alignment: .leading) {
-                    Text("Дизайн в SwiftUI")
+                    Text("Пройден курс")
                         .font(.title)
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
@@ -135,7 +135,7 @@ struct CardView: View {
                         .foregroundColor(Color("Primary"))
                 }
                 Spacer()
-                Image("Logo SwiftUI")
+                Image("LogoDaryn")
                     .resizable()
                     .aspectRatio(1/1, contentMode: .fit)
                     .frame(width: 50)
@@ -185,7 +185,7 @@ struct BottomCardView: View {
                 .frame(width: 40, height: 5)
                 .cornerRadius(3)
                 .opacity(0.1)
-            Text("Изучение особенностей разработки адаптивного дизайна в SwiftUI")
+            Text("Изучение особенностей разработки адаптивного дизайна в Figma")
                 .multilineTextAlignment(.center)
                 .font(.subheadline)
                 .lineSpacing(4)
@@ -193,7 +193,7 @@ struct BottomCardView: View {
                 RingView(color11: .red, color22: .blue, width: 88, height: 88, percent: 78, show: $show)
                     .animation(Animation.easeInOut.delay(0.3))
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Дизайн в SwiftUI")
+                    Text("Дизайн в Figma")
                         .bold()
                     Text("39 из 50 уроков завершено")
                         .font(.footnote)

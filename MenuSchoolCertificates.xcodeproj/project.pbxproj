@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		DD449BF128EABA72006D9EB3 /* menuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuView.swift; sourceTree = "<group>"; };
-		DDA0A33A28E95C8E008DAB20 /* mFF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mFF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA0A33A28E95C8E008DAB20 /* MenuSchoolCertificates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuSchoolCertificates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA0A33D28E95C8E008DAB20 /* mFFApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mFFApp.swift; sourceTree = "<group>"; };
 		DDA0A33F28E95C8E008DAB20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DDA0A34128E95C90008DAB20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		DDA0A33128E95C8E008DAB20 = {
 			isa = PBXGroup;
 			children = (
-				DDA0A33C28E95C8E008DAB20 /* mFF */,
+				DDA0A33C28E95C8E008DAB20 /* MenuSchoolCertificates */,
 				DDA0A33B28E95C8E008DAB20 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,12 +51,12 @@
 		DDA0A33B28E95C8E008DAB20 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DDA0A33A28E95C8E008DAB20 /* mFF.app */,
+				DDA0A33A28E95C8E008DAB20 /* MenuSchoolCertificates.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DDA0A33C28E95C8E008DAB20 /* mFF */ = {
+		DDA0A33C28E95C8E008DAB20 /* MenuSchoolCertificates */ = {
 			isa = PBXGroup;
 			children = (
 				DDE4F89A28EB28CB00A84FFD /* Home.swift */,
@@ -68,7 +68,7 @@
 				DDA0A34128E95C90008DAB20 /* Assets.xcassets */,
 				DDA0A34328E95C90008DAB20 /* Preview Content */,
 			);
-			path = mFF;
+			path = MenuSchoolCertificates;
 			sourceTree = "<group>";
 		};
 		DDA0A34328E95C90008DAB20 /* Preview Content */ = {
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DDA0A33928E95C8E008DAB20 /* mFF */ = {
+		DDA0A33928E95C8E008DAB20 /* MenuSchoolCertificates */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDA0A34828E95C90008DAB20 /* Build configuration list for PBXNativeTarget "mFF" */;
+			buildConfigurationList = DDA0A34828E95C90008DAB20 /* Build configuration list for PBXNativeTarget "MenuSchoolCertificates" */;
 			buildPhases = (
 				DDA0A33628E95C8E008DAB20 /* Sources */,
 				DDA0A33728E95C8E008DAB20 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = mFF;
+			name = MenuSchoolCertificates;
 			productName = mFF;
-			productReference = DDA0A33A28E95C8E008DAB20 /* mFF.app */;
+			productReference = DDA0A33A28E95C8E008DAB20 /* MenuSchoolCertificates.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DDA0A33528E95C8E008DAB20 /* Build configuration list for PBXProject "mFF" */;
+			buildConfigurationList = DDA0A33528E95C8E008DAB20 /* Build configuration list for PBXProject "MenuSchoolCertificates" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DDA0A33928E95C8E008DAB20 /* mFF */,
+				DDA0A33928E95C8E008DAB20 /* MenuSchoolCertificates */,
 			);
 		};
 /* End PBXProject section */
@@ -282,7 +282,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"mFF/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MenuSchoolCertificates/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -311,7 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"mFF/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MenuSchoolCertificates/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -336,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DDA0A33528E95C8E008DAB20 /* Build configuration list for PBXProject "mFF" */ = {
+		DDA0A33528E95C8E008DAB20 /* Build configuration list for PBXProject "MenuSchoolCertificates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDA0A34628E95C90008DAB20 /* Debug */,
@@ -345,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDA0A34828E95C90008DAB20 /* Build configuration list for PBXNativeTarget "mFF" */ = {
+		DDA0A34828E95C90008DAB20 /* Build configuration list for PBXNativeTarget "MenuSchoolCertificates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DDA0A34928E95C90008DAB20 /* Debug */,
